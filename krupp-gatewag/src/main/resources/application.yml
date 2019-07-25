@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Krupp-Gatewag
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true              # 是否开启通过注册中心进行路由转发的功能， 通过  serviceId 转发到服务， 默认为 false。
+          lowerCaseServiceId: true   # 转为小写 默认大写
+server:
+  port: 8010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
