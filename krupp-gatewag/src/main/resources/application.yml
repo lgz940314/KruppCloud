@@ -5,8 +5,8 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true              # ÊÇ·ñ¿ªÆôÍ¨¹ı×¢²áÖĞĞÄ½øĞĞÂ·ÓÉ×ª·¢µÄ¹¦ÄÜ£¬ Í¨¹ı  serviceId ×ª·¢µ½·şÎñ£¬ Ä¬ÈÏÎª false¡£
-          lowerCaseServiceId: true   # ×ªÎªĞ¡Ğ´ Ä¬ÈÏ´óĞ´
+          enabled: true              # æ˜¯å¦å¼€å¯é€šè¿‡æ³¨å†Œä¸­å¿ƒè¿›è¡Œè·¯ç”±è½¬å‘çš„åŠŸèƒ½ï¼Œ é€šè¿‡  serviceId è½¬å‘åˆ°æœåŠ¡ï¼Œ é»˜è®¤ä¸º falseã€‚
+          lowerCaseServiceId: true   # è½¬ä¸ºå°å†™ é»˜è®¤å¤§å†™
 server:
   port: 8010
 eureka:
